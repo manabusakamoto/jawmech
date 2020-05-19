@@ -1,0 +1,9 @@
+Package: jawmech
+Type: Package
+Title: Biomechanical profiling of mechanical advantages along tooth row
+Version: 1.0
+Date: 2014-08-26
+Author: Manabu Sakamoto
+Maintainer: <manabu.sakamoto@gmail.com>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
