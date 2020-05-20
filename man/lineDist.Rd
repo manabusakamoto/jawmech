@@ -3,10 +3,10 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 %%  ~~ function to calculate distance between line and point from coordinates ~~
-function to calculate distance between line and point from coordinates
+lineDist
 }
 \description{
-%%  ~~ Calculates the distance between a point and a straight line from three coordinates. ~~
+Calculates the distance between a point and a straight line from three coordinates.
 }
 \usage{
 lineDist(p1, p2, p0)
@@ -14,17 +14,18 @@ lineDist(p1, p2, p0)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{p1}{
-%%     ~~ x,y coordinates for Point 1 of straight line ~~
+x,y coordinates for Point 1 of straight line
 }
   \item{p2}{
-%%     ~~ x,y coordinates for Point 2 of straight line ~~
+x,y coordinates for Point 2 of straight line
 }
   \item{p0}{
-%%     ~~ x,y coordinates for Point 0 - the point the distance is calculated for ~~
+x,y coordinates for Point 0 - the point the distance is calculated for
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
+Calculates the distance between a point and a straight line from three coordinates.
 }
 \value{
 %%  ~Describe the value returned
@@ -32,6 +33,7 @@ lineDist(p1, p2, p0)
 %%  \item{comp1 }{Description of 'comp1'}
 %%  \item{comp2 }{Description of 'comp2'}
 %% ... 
+Returns the distance between a point and a straight line
 }
 \references{
 %% ~put references to the literature/web site here ~

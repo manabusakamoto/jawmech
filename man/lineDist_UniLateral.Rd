@@ -2,11 +2,10 @@
 \alias{lineDist_UniLateral}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to calculate distance between line and point from coordinates for a unilateral bite~~
-function to calculate distance between line and point from coordinates for a unilateral bite
+lineDist_UniLateral
 }
 \description{
-%%  ~~ Calculates the distance between a point and a straight line but also returns the scaling factors for the working and balancing sides of the unilateral bite ~~
+Calculates the distance between a point and a straight line but also returns the scaling factors for the working and balancing sides of the unilateral bite
 }
 \usage{
 lineDist_UniLateral(p1, p2, p0)
@@ -14,24 +13,24 @@ lineDist_UniLateral(p1, p2, p0)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{p1}{
-%%     ~~x,y coordinates for jaw joint 1~~
+x,y coordinates for jaw joint 1
 }
   \item{p2}{
-%%     ~~x,y coordinates for jaw joint 2~~
+x,y coordinates for jaw joint 2
 }
   \item{p0}{
-%%     ~~x,y coordinates for bite point~~
+x,y coordinates for bite point
 }
 }
 \details{
-%%  ~~ Based on three points, this function will calculate the distance between the bite point and a straight line connecting the two jaw joints for a unilateral bite. Additionally, the proportional weighting (scaling factor) will be returned for the working and balancing sides ~~
+Based on three points, this function will calculate the distance between the bite point and a straight line connecting the two jaw joints for a unilateral bite. Additionally, the proportional weighting (scaling factor) will be returned for the working and balancing sides
 }
 \value{
 %%  ~Describe the value returned
 %%  If it is a LIST, use
-%%  \item{lever }{Value for the calculated lever = distance between the biting point and the rotational axis, or straight line connecting the two jaw joints}
-%%  \item{scale.contralateral }{Scaling factor (weight) for the contralateral side}
-%%  \item{scale.ipsilateral }{Scaling factor (weight) for the contralateral side}
+\item{lever }{Value for the calculated lever = distance between the biting point and the rotational axis, or straight line connecting the two jaw joints}
+\item{scale.contralateral }{Scaling factor (weight) for the contralateral side}
+\item{scale.ipsilateral }{Scaling factor (weight) for the contralateral side}
 %% ...
 }
 \references{
@@ -39,6 +38,7 @@ lineDist_UniLateral(p1, p2, p0)
 }
 \author{
 %%  ~~who you are~~
+Manabu Sakamoto
 }
 \note{
 %%  ~~further notes~~
