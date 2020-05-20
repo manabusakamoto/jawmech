@@ -3,6 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 %%  ~~ function to calculate distance between line and point from coordinates ~~
+function to calculate distance between line and point from coordinates
 }
 \description{
 %%  ~~ Calculates the distance between a point and a straight line from three coordinates. ~~

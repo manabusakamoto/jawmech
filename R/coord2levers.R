@@ -38,9 +38,9 @@ lineDist_UniLateral <- function(p1, p2, p0){
   
   d.p1_p2 <- sqrt({px2 - px1}^2 + {py2 - py1}^2)
   
-  
-  contra.lateral <- 1 - d.p1_m/d.p1_p2
-  ipsi.lateral <- 1 - d.p2_m/d.p1_p2
+  d <- c(d.p1_m, d.p2_m)
+  contra.lateral <- 1 - max(d)/d.p1_p2
+  ipsi.lateral <- 1 - min(d)/d.p1_p2
   
   output <- list(lever=l, scale.contralateral=contra.lateral, scale.ipsilateral=ipsi.lateral)
   return(output)
