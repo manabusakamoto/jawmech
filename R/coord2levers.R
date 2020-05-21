@@ -46,6 +46,16 @@ lineDist_UniLateral <- function(p1, p2, p0){
   return(output)
 }
 
+# Calculate bite force based on moments scaled by proportional contribution of working and balancing sides
+bite.scale <- function(lever, lever.ref, bite.ref){
+  l <- lever$lever
+  # m <- bite.ref * lever.ref
+  m.c <- m.contra * lever$scale.contralateral
+  m.i <- m.ipsi * lever$scale.ipsilateral
+  bite <- m.c/l + m.i/l
+  return(bite)
+}
+
 # calculate distance between two points
 coorDist <- function(p1, p2){
   p1.x <- p1[1]
